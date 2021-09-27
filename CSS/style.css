@@ -286,7 +286,7 @@ body {
 .profile-menu-link.active, .profile-menu-link:hover {
   color: #fff;
   background-color: #1b1d2e;
-  border-bottom: 3px solid #1488fa;
+  border-bottom: 3px solid #184b00;
 }
 
 .profile-avatar {
