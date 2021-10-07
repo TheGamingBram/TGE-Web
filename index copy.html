@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TGE-WEB</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="shortcut icon" href="https://i.imgur.com/PknGAlr.png">
+  <link rel="stylesheet" href="CSS/oldstyle.css">
+  <script src="https://kit.fontawesome.com/2505b805f9.js" crossorigin="anonymous"></script>
+</head>
+<body style="user-select: none;">
+<!-- partial:index.partial.html -->
+<div class="container" x-data="{ rightSide: false, leftSide: false }">
+  <div class="main">
+    <div class="main-container">
+      <div class="profile">
+        <div class="profile-avatar">
+          <img src="https://i.imgur.com/PknGAlr.png" alt="" class="profile-img">
+          <div class="profile-name" style="color: #000;">TheGamingBram</div>
+        </div>
+        <img src="https://i.imgur.com/aSzPWfq.png" alt="" class="profile-cover">
+        <div class="profile-menu">
+          <a class="profile-menu-link active" onclick="opentab(event, 'timeline')">Timeline</a>
+          <a class="profile-menu-link" onclick="opentab(event, 'about')">About</a>
+          <a class="profile-menu-link" onclick="opentab(event, 'Projects')">Projects</a>
+          <a class="profile-menu-link" onclick="opentab(event, 'Projects')">More</a>
+        </div>
+      </div>
+      <div class="tabcont" id="timeline">
+        <div class="timeline">
+          <div class="timeline-left">
+            <div class="pages box">
+              <div class="intro-title">
+                My pages
+              </div>
+              <div class="user">
+                <a href="#" class="status-action">
+                  <img src="https://i.imgur.com/E1Zd0pg.png" alt="" class="user-img">
+                  <div class="username">Crows X TGE</div>
+                </a>
+              </div>
+              <div class="user">
+                <a href="#" class="status-action">
+                  <img src="https://i.imgur.com/C5TWVRq.png" alt="" class="user-img">
+                  <div class="username">TheMarioKartEvolution</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-right">
+            <div class="album box">
+              <div class="status-main">
+                <img src="https://i.imgur.com/PknGAlr.png" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>TheGamingBram</strong></div>
+                </div>
+              </div>
+              <div class="album-content">When the bass drops, so do my problems.
+                <div class="album-photos">
+                  <img src="https://images.unsplash.com/photo-1508179719682-dbc62681c355?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80" alt="" class="album-photo" />
+                  <div class="album-right">
+                    <img src="https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="" class="album-photo" />
+                    <img src="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="" class="album-photo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabcont" style="display: none;" id="about">
+        <div class="timeline">
+          <div class="timeline-left">
+            <div class="pages box">
+              <div class="intro-title">
+                Contact Me Here!
+              </div>
+              <div class="user">
+                <a href="https://discord.gg/26HRZv7MH3" class="status-action">
+                  <img src="https://i.imgur.com/E1Zd0pg.png" alt="" class="user-img">
+                  <div class="username">Crow X TGE Discord Server</div>
+                </a>
+              </div>
+              <div class="user">
+                <a href="https://discord.gg/2Tbpq2JNUC" class="status-action">
+                  <img src="https://i.imgur.com/C5TWVRq.png" alt="" class="user-img">
+                  <div class="username">TMKE Discord Server</div>
+                </a>
+              </div>
+              <div class="user">
+                <a href="https://discord.gg/NSSvdCBRK3" class="status-action">
+                  <img src="https://i.imgur.com/lPKJugG.png" alt="" class="user-img">
+                  <div class="username">Collective Mindz Discord Server</div>
+                </a>
+              </div>
+              <div class="user">
+                <div class="status-action">
+                  <img src="https://i.imgur.com/i9eKuXx.png" alt="" class="user-img">
+                  <div class="username">TheGamingBram#0001</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-right">
+            <div class="album box">
+              <div class="status-main">
+                <img src="https://i.imgur.com/PknGAlr.png" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>TheGamingBram</strong></div>
+                </div>
+              </div>
+              <div class="album-content">
+                <strong>About Me!</strong><br>
+                Heya im Bram,<br>
+                Im 19 years old and live in the Netherlands
+                <div class="album-photos">
+                  <img src="https://i.imgur.com/JMVgeuX.png" alt="" class="album-photo" />
+                  <div class="album-right">
+                    <img src="https://cdn.discordapp.com/attachments/699387316271317042/701378185375383562/ezgif-7-b5a5c0b83756.png" alt="" class="album-photo" />
+                    <img src="https://i.imgur.com/aSzPWfq.png" alt="" class="album-photo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="album box">
+              <div class="status-main">
+                <img src="https://i.imgur.com/PknGAlr.png" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>TheGamingBram</strong></div>
+                </div>
+              </div>
+              <div class="album-content">
+                <strong>Social Media</strong><br>
+                <dl>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="https://www.instagram.com/thegamingbram/"><i class="fab fa-instagram"></i> Instagram</a></dt>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="https://steamcommunity.com/id/TheGamingBram"><i class="fab fa-steam"></i> Steam</a></dt>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="https://github.com/TheGamingBram"><i class="fab fa-github"></i> Github</a></dt>
+                  <dt><i class="fab fa-battle-net"></i> Battle.net (ThGamingBram#2681)</dt>
+                  <dt><i class="fab fa-discord"></i> Discord (TheGamingBram#0001)</dt>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="https://discord.gg/26HRZv7MH3"><i class="fab fa-discord"></i> Discord (CrowxTGE)</a></dt>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="https://discord.gg/2Tbpq2JNUC"><i class="fab fa-discord"></i> Discord (TheMarioKartEvolution)</a></dt>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="https://discord.gg/NSSvdCBRK3"><i class="fab fa-discord"></i> Discord (Collective Mindz)</a></dt>
+                  <dt><a style="text-decoration: none; color: #ccc8db;" href="http://wiki.tockdom.com/wiki/TheGamingBram"><i class="fas fa-biking"></i> Custom Mario Kart Wiki</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabcont" style="display: none;" id="Projects">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.9.4/dist/alpine.js'></script>
+</body>
+</html>
+<script>
+  function opentab(evt, tabname)
+  {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcont");
+    for(i = 0; i < tabcontent.length; i++){
+      tabcontent[i].style.display = 'none';
+    }
+    tablinks = document.getElementsByClassName("profile-menu-link");
+    for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabname).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+</script>
