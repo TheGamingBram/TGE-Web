@@ -39,3 +39,14 @@
 </body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./Scripts/script.js"></script>
 </html>
+<script>
+  const d = new Date();
+  let month = d.getUTCMonth(); // 0 = Jan, 1 = Feb, 2 = Mar, 3 = Apr, 4 = May, 5 = Jun, 6 = Jul, 7 = Aug, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
+  obje = document.getElementById('Background');
+
+  if(month == 11){
+    obje.style.backgroundImage = "url('https://i.imgur.com/mPDNe0D.jpg')";
+  }else if(month == 9){
+    obje.style.backgroundImage = "url('https://i.imgur.com/BRML8Jo.jpg')";
+  }
+</script>
