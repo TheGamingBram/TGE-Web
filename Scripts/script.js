@@ -9,6 +9,7 @@ window.onload = function () {
     selector: ".background"
   });
 };
+
 var particles = Particles.init({
   selector: ".background",
   color: ["#27DA03", "#02FFF0", "#000000"],
@@ -24,6 +25,3 @@ var particles = Particles.init({
     }
   ]
 });
-
-
-

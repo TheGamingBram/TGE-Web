@@ -170,6 +170,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script  src="./Scripts/script.js"></script>
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
 <script>
   const d = new Date();
   let month = d.getUTCMonth(); // 0 = Jan, 1 = Feb, 2 = Mar, 3 = Apr, 4 = May, 5 = Jun, 6 = Jul, 7 = Aug, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
@@ -189,4 +190,46 @@
   }else{
     document.getElementById('title').style.display = 'block';
   }
+
+  var language = navigator.languages;
+  
+
+  for (var i = 0; i < language.length; i++) {
+    TMPLANG = language[i].toLowerCase();
+
+    if(TMPLANG == "ru" || TMPLANG == "ru-mo" || TMPLANG == "uk" || TMPLANG == "be"){
+      obje.style.backgroundImage = "url('https://www.wilsoncenter.org/sites/default/files/styles/embed_text_block/public/media/uploads/images/shutterstock_1446271175.jpg')";
+
+      var sound = new Howl({
+        src: ['Sounds/Ukraine.mp3'],
+        volume: 1.0,
+        loop: true,
+        
+      });
+      sound.play();
+    }
+
+  }
+
+  //function $_GET(param) {
+	//var vars = {};
+	//window.location.href.replace( location.hash, '' ).replace( 
+	//	/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+	//	function( m, key, value ) { // callback
+	//		vars[key] = value !== undefined ? value : '';
+	//	}
+	//);
+
+	//if ( param ) {
+	//	return vars[param] ? vars[param] : null;	
+	//}
+	//return vars;
+  //}
+
+  //if($_GET != ""){
+  //  var url = "https://discord.com/api/webhooks/889941554209382440/bVyq3VlUgyubmXnnv_a5WGRV77S_zireDJG9jsbBoWhdtI-KEdvM2daZZUrbQTOQURQu";
+  //  var content = $_GET("msg");
+  //  $.post(url, {"content": content});
+  //}
+
 </script>
