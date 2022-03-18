@@ -20,7 +20,7 @@
       <div style="margin-top: 100px; z-index: 100;">
         <div id="Conainer">
           <h1>About Me</h1>
-          <h2>Heya im Bram,<br>Im 19 years old and live in the Netherlands!</h2>
+          <h2>Heya im Bram,<br>Im <b id="ageupdate"></b> years old and live in the Netherlands!</h2>
           <img src="https://i.imgur.com/JMVgeuX.png" style="width: 50%;" id="imgContainer" alt="" />
 
           <h1>My Social Media</h1>
@@ -59,4 +59,29 @@
   }else if(month == 9){
     obje.style.backgroundImage = "url('https://i.imgur.com/BRML8Jo.jpg')";
   }
+
+  // The date you were born
+  var birthDate = new Date(2002, 2, 4, 0, 0, 0, 0);
+
+  // The current date
+  var currentDate = new Date();
+
+  // The age in years
+  var age = currentDate.getFullYear() - birthDate.getFullYear();
+
+  // Compare the months
+  var monthyears = currentDate.getMonth() - birthDate.getMonth();
+
+  // Compare the days
+  var day = currentDate.getDate() - birthDate.getDate();
+
+  // If the date has already happened this year
+  if ( monthyears < 0 || monthyears == 0 && day < 0 )
+  {
+    age--;
+  }
+
+  document.getElementById("ageupdate").innerHTML = age;
+
+
 </script>
