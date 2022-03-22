@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TGE-WEB</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="https://i.imgur.com/PknGAlr.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <div style="margin-top: 100px; z-index: 100;">
+      <div id="Conainer">
+        <h1>Mario Kart Wii Mods</h1> 
+      </div>
+
+      <div id="Conainer">
+        <h1>Minecraft</h1> 
+        <div id="txtContainer">
+            <h3>My Minecraft Skin</h3>
+            <div>
+              <img src="https://i.imgur.com/Id0oNBP.png" alt="" id="imgContainer" />
+              <img src="https://i.imgur.com/QTMfvL9.png" alt="" id="imgContainer" />
+            </div>
+        </div>
+        <div id="txtContainer">
+            <h3>The Memesquad Modpack</h3>
+            <div>
+                <img src="https://media.forgecdn.net/avatars/thumbnails/445/156/64/64/637700820082515032.png" style="width: 50%;" alt="" id="imgContainer" />
+            </div>
+            <div id="txtContainer">
+                <p>
+                  <span style="font-size:18px">
+                    <strong>The Memesquad Modpack</strong>
+                  </span>
+                </p>
+                <hr>
+                <p>
+                  <span style="font-size:14px">
+                    <strong>Features of the modpack</strong>
+                  </span>
+                </p>
+                <br>
+                <p>It adds allot of new things to minecraft like:</p>
+                <br>
+                <p>New Bioms from bioms 'o plenty and Biomes You'll Go</p>
+                <p>Improvements to the nether and end</p>
+                <p>New dimensions</p>
+                <p>New Armour</p>
+                <p>Weapons</p>
+                <p>tools</p>
+                <p>and so mutch more!</p>
+                <br>
+                <hr>
+                <p>
+                  <span style="font-size:14px">
+                    <strong>What is the Memesquad?</strong>
+                  </span>
+                </p>
+                <p>The Memesquad is a group of people that play games together and just have fun playing these games.<br><br></p>
+                <hr>
+                <p>
+                  <span style="font-size:14px">
+                    <strong>Idea for the modpack</strong>
+                  </span>
+                </p>
+                <p>
+                  <span style="font-size:12px">The idea of this modpack came in mind because of that the group wanted to have another game that we could play together. </span>
+                </p>
+                <p>
+                  <span style="font-size:12px">so modded minecraft came in mind!</span>
+                </p>
+              </div>
+            <div class="buttoncontain">
+                <a href="https://www.curseforge.com/minecraft/modpacks/memesquad"><i class="far fa-download" id="rainbowbuttonstxt"> Download</i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-container">
+      <a class="nav-tab" href="index.html">Home</a>
+      <a class="nav-tab" href="about.html">About Me</a>
+      <a class="nav-tab active-tab" href="#">Projects</a>
+    </div>
+  </div>
+  <canvas class="background" id='Background'></canvas>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./Scripts/script.js"></script>
+</html>
+<script>
+  const d = new Date();
+  let month = d.getUTCMonth(); // 0 = Jan, 1 = Feb, 2 = Mar, 3 = Apr, 4 = May, 5 = Jun, 6 = Jul, 7 = Aug, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
+  obje = document.getElementById('Background');
+
+  if(month == 11){
+    obje.style.backgroundImage = "url('https://i.imgur.com/mPDNe0D.jpg')";
+  }else if(month == 9){
+    obje.style.backgroundImage = "url('https://i.imgur.com/BRML8Jo.jpg')";
+  }
+</script>
