@@ -1,4 +1,4 @@
 {"records":[
-    {"id":1,"UserID":"usr_e6c4a9fe-8119-43ed-8aa8-ed7f0ba6410e","Text":"<color=#ff0000>[DEV]<\/color> <color=green>Broggle Boy<\/color>","Active":true},
-    {"id":2,"UserID":"usr_27abbf6c-0a40-43c6-9abc-a7b054a31b0e","Text":"<color=red>[DEV]<\/color> <color=#d916fc>Mama Crow<\/color>","Active":true}
+    {"id":1,"UserID":"usr_e6c4a9fe-8119-43ed-8aa8-ed7f0ba6410e","Text":"<color=green>Broggle Boy<\/color>","Active":true},
+    {"id":2,"UserID":"usr_27abbf6c-0a40-43c6-9abc-a7b054a31b0e","Text":"<color=#d916fc>Mama Crow<\/color>","Active":true}
 ]}
