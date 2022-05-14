@@ -12,7 +12,7 @@
     {"id":11,"UserID":"usr_e905c9ce-dc2b-4a1f-a8af-5860b25c918e","UserName":"Mr-Cleric","Special":true,"Dev":false,"Active":true},
     {"id":12,"UserID":"usr_8849fd0d-a289-46b7-b525-1feaf4d96a25","UserName":"TheMasked_00","Special":false,"Dev":false,"Active":true},
     {"id":13,"UserID":"usr_88993d19-465f-47c5-b76f-b3a832e0d60f","UserName":"Azrael_VR","Special":true,"Dev":false,"Active":true},
-    {"id":14,"UserID":"usr_7728dc3a-8e26-4f29-82bd-26505a855c3a","UserName":"Avislime","Special":false,"Dev":false,"Active":true},
+    {"id":14,"UserID":"usr_7728dc3a-8e26-4f29-82bd-26505a855c3a","UserName":"Avislime","Special":true,"Dev":false,"Active":true},
     {"id":15,"UserID":"usr_73044c5e-280f-4a41-b4cb-37cf66f96fac","UserName":"gumdropfelines","Special":false,"Dev":false,"Active":true},
     {"id":16,"UserID":"usr_221dfec5-53b9-4f18-bf4d-1c3710dd7323","UserName":"-Ace-","Special":true,"Dev":false,"Active":true},
     {"id":17,"UserID":"usr_b4fc2c21-2171-4d9f-9af0-5e6696c7a92d","UserName":"-Spades-","Special":true,"Dev":false,"Active":true},
