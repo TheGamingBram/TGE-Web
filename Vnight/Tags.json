@@ -1,6 +1,6 @@
 {"records":[
     {"id":1,"UserID":"usr_e6c4a9fe-8119-43ed-8aa8-ed7f0ba6410e","Text":"<color=#d916fc>Mr Night<\/color> | <color=green>Broggle Boy<\/color>","Active":true},
-    {"id":2,"UserID":"usr_27abbf6c-0a40-43c6-9abc-a7b054a31b0e","Text":"<color=#d916fc>Ms Night<\/color> | <color=#00ffea><i>That One Dev Who Updates To Much<\/i><\/color>","Active":true},
+    {"id":2,"UserID":"usr_27abbf6c-0a40-43c6-9abc-a7b054a31b0e","Text":"<font="Comic Sans MS"><color=#d916fc>Ms Night<\/color> | <color=#00ffea><i>That One Dev Who Updates To Much<\/i><\/color><\/font>","Active":true},
     {"id":3,"UserID":"usr_8c54ad82-1651-4cc5-80ff-144fe5b41203","Text":"<color=#32a852>Fried Vegetable<\/color>","Active":true},
     {"id":4,"UserID":"usr_6b8c70db-344e-4063-9b56-7525f552ec1d","Text":"<color=#00ffea>Unironically Finnish<\/color> | <color=#ff9999>Lazy Finn<\/color> | <color=#ffffff>Average Salmiakki Enjoyer<\/color>","Active":true},
     {"id":5,"UserID":"usr_b4fc2c21-2171-4d9f-9af0-5e6696c7a92d","Text":"<color=#800080>FURRY<\/color> | <color=#ff9999>Aces Wifey<\/color> | <color=#c520fc>Ace's Dom Mommy<\/color>","Active":true},
@@ -11,6 +11,6 @@
     {"id":10,"UserID":"usr_7728dc3a-8e26-4f29-82bd-26505a855c3a","Text":"<color=#1bc5c2>Psychonaut Agent Aquato<\/color> | <color=#FA5F9F><i><b>Bitchn't?<\/i><\/b><\/color>","Active":true},
     {"id":11,"UserID":"usr_fdd84377-94ac-491a-b9bd-bf4999c19220","Text":"<color=#fe33ff><size=60><b>that one fucker that wont stop bothering obi<\/b><\/size><\/color>","Active":true},
     {"id":12,"UserID":"usr_e905c9ce-dc2b-4a1f-a8af-5860b25c918e","Text":"<size=60><b><i><color=#FF0000>S<\/color><color=#FF4200>i<\/color><color=#FF8500>l<\/color><color=#FFC700>l<\/color><color=#F3FF00>y<\/color> <color=#6EFF00>l<\/color><color=#2CFF00>i<\/color><color=#00FF16>t<\/color><color=#00FF58>t<\/color><color=#00FF9B>l<\/color><color=#00FFDD>e<\/color> <color=#009BFF>a<\/color><color=#0058FF>r<\/color><color=#0016FF>t<\/color><color=#2C00FF>i<\/color><color=#6E00FF>s<\/color><color=#B100FF>t<\/color> <color=#FF00C7>m<\/color><color=#FF0085>a<\/color><color=#FF0042>n<\/color></i></b><\/size>","Active":true},
-    {"id":13,"UserID":"usr_6b1979d2-d7a2-4409-9292-d9ea8f019881","Text":"<size=60>Ultimate <i><color=#dc143c>C<\/color><color=#ff595c>u<\/color><color=#ffa8a9>n<\/color><color=#ffffff>t<\/color><\/i><\/size>","Active":true}
+    {"id":13,"UserID":"usr_6b1979d2-d7a2-4409-9292-d9ea8f019881","Text":"<font="Comic Sans MS"><size=60>Ultimate <i><color=#dc143c>C<\/color><color=#ff595c>u<\/color><color=#ffa8a9>n<\/color><color=#ffffff>t<\/color><\/i><\/size><\/font>","Active":true}
     
 ]} 
