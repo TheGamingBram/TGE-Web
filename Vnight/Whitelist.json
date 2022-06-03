@@ -7,7 +7,7 @@
     {"id":6,"UserID":"usr_79a11d63-d4c6-46f9-82ca-d43aeada89f4","UserName":"bobcatt Nielson","Special":true,"Dev":false,"Active":true},
     {"id":7,"UserID":"usr_d567a21d-1ae1-4a5e-b72c-5b4c8569c7db","UserName":"A-ja","Special":true,"Dev":false,"Active":true},
     {"id":8,"UserID":"usr_3da684a4-9ba9-48c7-9b25-c81737aeff60","UserName":"agoose","Special":false,"Dev":false,"Active":true},
-    {"id":9,"UserID":"usr_6b8c70db-344e-4063-9b56-7525f552ec1d","UserName":"K01RU","Special":true,"Dev":false,"Active":true},
+    {"id":9,"UserID":"usr_6b8c70db-344e-4063-9b56-7525f552ec1d","UserName":"K01RU","Special":true,"Dev":true,"Active":true},
     {"id":10,"UserID":"usr_8c54ad82-1651-4cc5-80ff-144fe5b41203","UserName":"The Onion Ring","Special":false,"Dev":false,"Active":true},
     {"id":11,"UserID":"usr_e905c9ce-dc2b-4a1f-a8af-5860b25c918e","UserName":"Mr-Cleric","Special":true,"Dev":false,"Active":true},
     {"id":12,"UserID":"usr_8849fd0d-a289-46b7-b525-1feaf4d96a25","UserName":"TheMasked_00","Special":false,"Dev":false,"Active":true},
