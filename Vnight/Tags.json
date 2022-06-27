@@ -31,5 +31,6 @@
     {"id":30,"UserID":"usr_3823ff46-4708-42c9-a6f9-fb8e4c9f4d08","Text":"<color=#58f1fc><size=20>Playboy Hyper<\/size><\/color>","Active":true},
     {"id":31,"UserID":"usr_6b6e51f1-3ccf-45a9-b0e6-89234c8fd716","Text":"<color=#9d05fc>STREAMER<\/color>","Active":true},
     {"id":32,"UserID":"usr_2424c9ff-4acb-42fe-8778-3fe7b5b9571d","Text":"<color=#ffc105>The Baron<\/color>","Active":true},
-    {"id":33,"UserID":"usr_4ec00249-139e-46cd-ae1a-02d85581efec","Text":"<color=#9d05fc>STREAMER<\/color>","Active":true}
+    {"id":33,"UserID":"usr_4ec00249-139e-46cd-ae1a-02d85581efec","Text":"<color=#9d05fc>STREAMER<\/color>","Active":true},
+    {"id":34,"UserID":"usr_50109349-ceec-4330-8574-cfb186aa1b66","Text":"<color=#9d05fc>Skrillex.midi<\/color>","Active":true}
 ]} 
