@@ -32,5 +32,8 @@
     {"id":31,"UserID":"usr_dd6023e7-8470-43c0-be3b-e0b25d629f7a","UserName":"［O N I］","Special":true,"Dev":false,"Active":true},
     {"id":32,"UserID":"usr_5ddea9cf-88d2-497f-82ba-d1ab871d4cc2","UserName":"BriskyBurd","Special":true,"Dev":false,"Active":true},
     {"id":33,"UserID":"usr_b47e6904-1001-44f0-82cd-004ad1647702","UserName":"Ash Ketchum-","Special":true,"Dev":false,"Active":true},
-    {"id":34,"UserID":"usr_6c116706-346a-4365-bbe5-b404ea50db99","UserName":"Zekarta","Special":true,"Dev":false,"Active":true}
+    {"id":34,"UserID":"usr_6c116706-346a-4365-bbe5-b404ea50db99","UserName":"Zekarta","Special":true,"Dev":false,"Active":true},
+    {"id":35,"UserID":"usr_2b2fe8e0-1796-47a5-935d-a0624526cba2","UserName":"｢Rayse｣","Special":true,"Dev":false,"Active":true},
+    {"id":36,"UserID":"usr_2424c9ff-4acb-42fe-8778-3fe7b5b9571d","UserName":"Alastor_Vaya","Special":true,"Dev":false,"Active":true},
+    {"id":37,"UserID":"usr_ce18b18b-6173-4a4c-9946-9c576097e04a","UserName":"Hyen the sergal","Special":true,"Dev":true,"Active":true}
 ]}
