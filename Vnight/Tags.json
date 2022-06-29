@@ -32,5 +32,6 @@
     {"id":31,"UserID":"usr_6b6e51f1-3ccf-45a9-b0e6-89234c8fd716","Text":"<color=#9d05fc>STREAMER<\/color>","Active":true},
     {"id":32,"UserID":"usr_2424c9ff-4acb-42fe-8778-3fe7b5b9571d","Text":"<color=#ffc105>The Baron<\/color>","Active":true},
     {"id":33,"UserID":"usr_4ec00249-139e-46cd-ae1a-02d85581efec","Text":"<color=#9d05fc>STREAMER<\/color>","Active":true},
-    {"id":34,"UserID":"usr_50109349-ceec-4330-8574-cfb186aa1b66","Text":"<color=#9d05fc>Skrillex.midi<\/color>","Active":true}
+    {"id":34,"UserID":"usr_50109349-ceec-4330-8574-cfb186aa1b66","Text":"<color=#9d05fc>Skrillex.midi<\/color>","Active":true},
+    {"id":35,"UserID":"usr_ed694fa4-24d0-4e8e-a3fc-d36891b1862e","Text":"<color=#800080>FURRY<\/color>","Active":true}
 ]} 
