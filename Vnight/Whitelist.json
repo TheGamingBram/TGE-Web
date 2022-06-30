@@ -35,5 +35,6 @@
     {"id":34,"UserID":"usr_6c116706-346a-4365-bbe5-b404ea50db99","UserName":"Zekarta","Special":true,"Dev":false,"Active":true},
     {"id":35,"UserID":"usr_2b2fe8e0-1796-47a5-935d-a0624526cba2","UserName":"｢Rayse｣","Special":true,"Dev":false,"Active":true},
     {"id":36,"UserID":"usr_2424c9ff-4acb-42fe-8778-3fe7b5b9571d","UserName":"Alastor_Vaya","Special":true,"Dev":false,"Active":true},
-    {"id":37,"UserID":"usr_ce18b18b-6173-4a4c-9946-9c576097e04a","UserName":"Hyen the sergal","Special":true,"Dev":true,"Active":true}
+    {"id":37,"UserID":"usr_ce18b18b-6173-4a4c-9946-9c576097e04a","UserName":"Hyen the sergal","Special":true,"Dev":true,"Active":true},
+    {"id":38,"UserID":"usr_f21db370-0ae6-4cc7-8f82-f360d3c9e9bd","UserName":"Puddlzs","Special":true,"Dev":false,"Active":true}
 ]}
