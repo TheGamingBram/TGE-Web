@@ -36,5 +36,6 @@
     {"id":35,"UserID":"usr_ed694fa4-24d0-4e8e-a3fc-d36891b1862e","Text":"<color=#800080>FURRY<\/color>","Active":true},
     {"id":36,"UserID":"usr_6823c674-38da-4830-9a12-6723889c91c2","Text":"<color=#f45afc><size=20>femboy<\/size><\/color>","Active":true},
     {"id":37,"UserID":"usr_f21db370-0ae6-4cc7-8f82-f360d3c9e9bd","Text":"<color=#C0C0C0>The King Of Swing<\/color>","Active":true},
-    {"id":38,"UserID":"usr_f92e1d27-fc0d-4c59-8513-deaabcf5871f","Text":"<color=#d60003>Known Reuploader<\/color>","Active":true}
+    {"id":38,"UserID":"usr_f92e1d27-fc0d-4c59-8513-deaabcf5871f","Text":"<color=#d60003>Known Reuploader<\/color>","Active":true},
+    {"id":39,"UserID":"usr_2a66d875-db45-4c87-a77b-102dec34a55d","Text":"<color=#d60003>Known Crasher<\/color>","Active":true}
 ]} 
