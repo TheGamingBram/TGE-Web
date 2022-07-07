@@ -48,5 +48,6 @@
     {"id":47,"UserID":"usr_09bc73e0-3e79-4dfb-a2f9-4e69db617f32","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
     {"id":48,"UserID":"usr_07d21ae2-7d09-48df-b49c-15c110c5a050","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
     {"id":49,"UserID":"usr_c0f130b2-80de-4461-a00b-73942a9fd080","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
-    {"id":50,"UserID":"usr_73044c5e-280f-4a41-b4cb-37cf66f96fac","Text":"<color=#00FF7F>local scrunkly<\/color>","Active":true}
+    {"id":50,"UserID":"usr_73044c5e-280f-4a41-b4cb-37cf66f96fac","Text":"<color=#00FF7F>local scrunkly<\/color>","Active":true},
+    {"id":51,"UserID":"usr_09b98bbe-ddd9-4d07-9b89-07ea444c4c05","Text":"<color=#00FF00><size=9999>▇<\/size><\/color>","Active":true}
 ]} 
