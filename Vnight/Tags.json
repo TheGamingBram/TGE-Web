@@ -58,5 +58,6 @@
     {"id":57,"UserID":"usr_1bd4e284-d691-46ad-88b5-9e61c9eee856","Text":"<color=#d60003>Known ScriptKiddie<\/color> | <color=#d60003>block me<\/color> | <color=#d60003>Grabbify user<\/color>","Active":true},
     {"id":58,"UserID":"usr_2a0f0acd-beb9-4af4-98ff-7fbb08a0f19b","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
     {"id":59,"UserID":"usr_f111ade4-bb09-4a24-a8a6-d0f90f8882eb","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
-    {"id":60,"UserID":"usr_a4bb64cf-5f83-4903-b478-a684a19fd839","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true}
+    {"id":60,"UserID":"usr_a4bb64cf-5f83-4903-b478-a684a19fd839","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
+    {"id":61,"UserID":"usr_7888abfd-e8ca-4fb8-b635-4439b1ec033a","Text":"<color=#d60003>Known Crasher<\/color>","Active":true}
 ]} 
