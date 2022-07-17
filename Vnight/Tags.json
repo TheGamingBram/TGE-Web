@@ -62,5 +62,6 @@
     {"id":61,"UserID":"usr_7888abfd-e8ca-4fb8-b635-4439b1ec033a","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
     {"id":62,"UserID":"usr_8b7c2573-e99f-40b5-9de0-de4f9eb63d6b","Text":"<color=#d60003>Strawberry Boi<\/color>","Active":true},
     {"id":63,"UserID":"usr_c0bd8c6a-5624-4ab5-bb54-434229a3621b","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
-    {"id":64,"UserID":"usr_f2869556-8d43-46d1-a70c-aa0cc1319f90","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true}
+    {"id":64,"UserID":"usr_f2869556-8d43-46d1-a70c-aa0cc1319f90","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
+    {"id":65,"UserID":"usr_e200e406-fde8-4cfc-a7f6-f20c9817b827","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true}
 ]} 
