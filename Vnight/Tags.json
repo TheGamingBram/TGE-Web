@@ -64,5 +64,9 @@
     {"id":63,"UserID":"usr_c0bd8c6a-5624-4ab5-bb54-434229a3621b","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
     {"id":64,"UserID":"usr_f2869556-8d43-46d1-a70c-aa0cc1319f90","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
     {"id":65,"UserID":"usr_e200e406-fde8-4cfc-a7f6-f20c9817b827","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
-    {"id":66,"UserID":"usr_e608df4a-da5e-4957-baa6-5b1527401d23","Text":"<color=#d60003>Known Crasher<\/color>","Active":true}
+    {"id":66,"UserID":"usr_e608df4a-da5e-4957-baa6-5b1527401d23","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
+    {"id":67,"UserID":"usr_2db00f0d-65b0-4e65-8f35-d45f94cfd2ca","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
+    {"id":68,"UserID":"usr_68a0fc9a-fcc8-4d67-a4c3-32212b6c74a6","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
+    {"id":69,"UserID":"usr_c431823f-e52e-401c-9530-9ea28962c513","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
+    {"id":70,"UserID":"usr_e551be92-a08e-4c26-8a65-a55f7066221e","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true}
 ]} 
