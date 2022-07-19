@@ -74,5 +74,7 @@
     {"id":73,"UserID":"usr_1fba3c70-bda4-45a9-9473-9fb84b0dba0c","Text":"<color=#a959d1>Mother Of Hazbin<\/color> | <color=#2e0182>Mantus Simp<\/color>","Active":true},
     {"id":74,"UserID":"usr_b6ebec9d-e56d-477a-8b65-5139e6850bd3","Text":"<size=25>Needs To Grow Up.. Seriously<\/size>","Active":true},
     {"id":75,"UserID":"usr_ad509e55-5877-47fc-9a86-93be79ed55a7","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
-    {"id":76,"UserID":"usr_a0ab6def-b3ab-4608-94db-88a63a4f165d","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true}
+    {"id":76,"UserID":"usr_a0ab6def-b3ab-4608-94db-88a63a4f165d","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
+    {"id":77,"UserID":"usr_0a088f68-1744-4359-a4b1-00c77ff14668","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
+    {"id":78,"UserID":"usr_9b85e9c3-2e47-4c27-9849-cd3a8faa13a6","Text":"<color=#d60003>Known Crasher<\/color>","Active":true}
 ]} 
