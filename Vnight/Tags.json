@@ -77,6 +77,7 @@
     {"id":76,"UserID":"usr_a0ab6def-b3ab-4608-94db-88a63a4f165d","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
     {"id":77,"UserID":"usr_0a088f68-1744-4359-a4b1-00c77ff14668","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
     {"id":78,"UserID":"usr_9b85e9c3-2e47-4c27-9849-cd3a8faa13a6","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
-    {"id":79,"UserID":"usr_3da684a4-9ba9-48c7-9b25-c81737aeff60","Text":"<size=25>THE<\/size>","Active":true}
+    {"id":79,"UserID":"usr_3da684a4-9ba9-48c7-9b25-c81737aeff60","Text":"<size=25>THE<\/size>","Active":true},
+    {"id":80,"UserID":"usr_4bcc70c4-1963-4c20-94a2-fe05cc71e9cb","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true}
     
 ]} 
