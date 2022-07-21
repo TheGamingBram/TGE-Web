@@ -80,6 +80,7 @@
     {"id":79,"UserID":"usr_3da684a4-9ba9-48c7-9b25-c81737aeff60","Text":"<size=25>THE<\/size>","Active":true},
     {"id":80,"UserID":"usr_4bcc70c4-1963-4c20-94a2-fe05cc71e9cb","Text":"<color=#d60003>Known Reuploader/Ripper<\/color>","Active":true},
     {"id":81,"UserID":"usr_701ab5a8-92c1-4962-84fc-fb20d473dedf","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
-    {"id":82,"UserID":"usr_96500636-0f3f-4a61-897f-1e6350c93a81","Text":"<color=#d60003>Known Crasher<\/color>","Active":true}
+    {"id":82,"UserID":"usr_96500636-0f3f-4a61-897f-1e6350c93a81","Text":"<color=#d60003>Known Crasher<\/color>","Active":true},
+    {"id":83,"UserID":"usr_6d5b88d5-ee5f-4089-82ac-58ff8c80b803","Text":"<color=#5600a5>Kirai Chan<\/color>","Active":true}
     
 ]} 
