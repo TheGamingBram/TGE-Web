@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TGE-WEB</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="https://i.imgur.com/PknGAlr.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <div class="nav" style="justify-content: center;">
+    <div class="nav-container">
+      <a class="nav-tab active-tab" href="#">Home</a>
+      <a class="nav-tab" href="about.html">About Me</a>
+      <a class="nav-tab" href="projects.html">Projects</a>
+    </div>
+    <h1>THEGAMINGBRAM</h1>
+    <h3 class="span loader title" id="title">
+      <span class='m'>T</span>
+      <span class='m'>H</span>
+      <span class='m'>E</span>
+      <span class='m'>&nbsp;</span>
+      <span class='m'>G</span>
+      <span class='m'>A</span>
+      <span class='m'>M</span>
+      <span class='m'>I</span>
+      <span class='m'>N</span>
+      <span class='m'>G</span>
+      <span class='m'>&nbsp;</span>
+      <span class='m'>E</span>
+      <span class='m'>V</span>
+      <span class='m'>O</span>
+      <span class='m'>L</span>
+      <span class='m'>U</span>
+      <span class='m'>T</span>
+      <span class='m'>I</span>
+      <span class='m'>O</span>
+      <span class='m'>N</span>
+    </h3>
+    <h3 class="span loader xmas" id="xmas">
+      <span class='m'>M</span>
+      <span class='m'>A</span>
+      <span class='m'>R</span>
+      <span class='m'>R</span>
+      <span class='m'>Y</span>
+      <span class='m'>&nbsp;</span>
+      <span class='m'>X</span>
+      <span class='m'>-</span>
+      <span class='m'>M</span>
+      <span class='m'>A</span>
+      <span class='m'>S</span>
+    </h3>
+    <h3 class="span loader spook" id="spook">
+      <span class='m'>S</span>
+      <span class='m'>P</span>
+      <span class='m'>O</span>
+      <span class='m'>O</span>
+      <span class='m'>K</span>
+      <span class='m'>Y</span>
+      <span class='m'>&nbsp;</span>
+      <span class='m'>M</span>
+      <span class='m'>O</span>
+      <span class='m'>N</span>
+      <span class='m'>T</span>
+      <span class='m'>H</span>
+    </h3>
+  </div>
+  <canvas class="background" id='Background'></canvas>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script  src="./Scripts/script.js"></script>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+<script>
+  const d = new Date();
+  let month = d.getUTCMonth(); // 0 = Jan, 1 = Feb, 2 = Mar, 3 = Apr, 4 = May, 5 = Jun, 6 = Jul, 7 = Aug, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
+  obje = document.getElementById('Background');
+
+  titleobjects = document.getElementsByClassName('loader');
+  for(var i = 0; i < titleobjects.length; i++){
+    titleobjects[i].style.display = 'none';
+  }
+
+  if(month == 11){
+    obje.style.backgroundImage = "url('https://i.imgur.com/mPDNe0D.jpg')";
+    document.getElementById('xmas').style.display = 'block';
+  }else if(month == 9){
+    obje.style.backgroundImage = "url('https://i.imgur.com/BRML8Jo.jpg')";
+    document.getElementById('spook').style.display = 'block';
+  }else{
+    document.getElementById('title').style.display = 'block';
+  }
+
+  var language = navigator.languages;
+
+  console.log(language);
+  
+
+  for (var i = 0; i < language.length; i++) {
+    TMPLANG = language[i].toLowerCase();
+
+    if(TMPLANG == "ru" || TMPLANG == "ru-mo" || TMPLANG == "uk" || TMPLANG == "be"){
+      obje.style.backgroundImage = "url('https://www.wilsoncenter.org/sites/default/files/styles/embed_text_block/public/media/uploads/images/shutterstock_1446271175.jpg')";
+
+      var sound = new Howl({
+        src: ['Sounds/Ukraine.mp3'],
+        volume: 1.0,
+        loop: true,
+        
+      });
+      sound.play();
+    }
+
+  }
+
+  //function $_GET(param) {
+	//var vars = {};
+	//window.location.href.replace( location.hash, '' ).replace( 
+	//	/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+	//	function( m, key, value ) { // callback
+	//		vars[key] = value !== undefined ? value : '';
+	//	}
+	//);
+
+	//if ( param ) {
+	//	return vars[param] ? vars[param] : null;	
+	//}
+	//return vars;
+  //}
+
+  //if($_GET != ""){
+  //  var url = "DISORD n";
+  //  var content = $_GET("msg");
+  //  $.post(url, {"content": content});
+  //}
+
+</script>
