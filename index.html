@@ -1,145 +1,165 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>TGE-WEB</title>
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" href="https://i.imgur.com/PknGAlr.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./CSS/style.css">
-</head>
+<html>
+     <head>
+          <!-- Required meta tags -->
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-  <div class="nav" style="justify-content: center;">
-    <div class="nav-container">
-      <a class="nav-tab active-tab" href="#">Home</a>
-      <a class="nav-tab" href="about.html">About Me</a>
-      <a class="nav-tab" href="projects.html">Projects</a>
-    </div>
-    <h1>THEGAMINGBRAM</h1>
-    <h3 class="span loader title" id="title">
-      <span class='m'>T</span>
-      <span class='m'>H</span>
-      <span class='m'>E</span>
-      <span class='m'>&nbsp;</span>
-      <span class='m'>G</span>
-      <span class='m'>A</span>
-      <span class='m'>M</span>
-      <span class='m'>I</span>
-      <span class='m'>N</span>
-      <span class='m'>G</span>
-      <span class='m'>&nbsp;</span>
-      <span class='m'>E</span>
-      <span class='m'>V</span>
-      <span class='m'>O</span>
-      <span class='m'>L</span>
-      <span class='m'>U</span>
-      <span class='m'>T</span>
-      <span class='m'>I</span>
-      <span class='m'>O</span>
-      <span class='m'>N</span>
-    </h3>
-    <h3 class="span loader xmas" id="xmas">
-      <span class='m'>M</span>
-      <span class='m'>A</span>
-      <span class='m'>R</span>
-      <span class='m'>R</span>
-      <span class='m'>Y</span>
-      <span class='m'>&nbsp;</span>
-      <span class='m'>X</span>
-      <span class='m'>-</span>
-      <span class='m'>M</span>
-      <span class='m'>A</span>
-      <span class='m'>S</span>
-    </h3>
-    <h3 class="span loader spook" id="spook">
-      <span class='m'>S</span>
-      <span class='m'>P</span>
-      <span class='m'>O</span>
-      <span class='m'>O</span>
-      <span class='m'>K</span>
-      <span class='m'>Y</span>
-      <span class='m'>&nbsp;</span>
-      <span class='m'>M</span>
-      <span class='m'>O</span>
-      <span class='m'>N</span>
-      <span class='m'>T</span>
-      <span class='m'>H</span>
-    </h3>
-  </div>
-  <canvas class="background" id='Background'></canvas>
-</body>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-<script  src="./Scripts/script.js"></script>
+          <link rel="shortcut icon" href="Assets/IMG/VnightICON.png">
+
+          <!-- Title tag -->
+          <title>TGE-WEB</title>
+
+          <!-- Font awesome -->
+          <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+
+          <!-- Animate.css -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+          <!-- Normalize -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+
+          <!-- Custom CSS -->
+          <link href="Assets/CSS/Style.css" rel="stylesheet">
+
+     </head>
+     <body>
+          <!-- Main Navigation -->
+          <nav class="main-nav" id="main-nav">
+               <div class="content-wrapper-sm">
+                    <a href="#" class="navbar-brand">TGE-WEB</a>
+                    <div id="menu-button">
+                         <div class="bar1"></div>
+                         <div class="bar2"></div>
+                         <div class="bar3"></div>
+                    </div>
+                    <ul class="nav-links">
+                         <li><a href="#about">About me</a></li>
+                         <li><a href="#reserve">Projects</a></li>
+                         <li><a href="#contact">Contact</a></li>
+                    </ul>
+               </div>
+          </nav>
+
+          <!-- Main header -->
+          <header>
+               <!-- First replaceble image -->
+               <img class="img-absolute" id="IMG1" src="Assets/IMG/BACKGROUND.png" alt="There should be an image">
+               <div class="wrapper astonish animated fadeInDown">
+                    <h1><strong>TheGamingBram</strong></h1>
+                    <h2>Welcome To My Page!</h2>
+               </div>
+          </header>
+
+          <!-- Main content -->
+          <main>
+               <div class="content-wrapper" id="about">
+                    <!-- second replaceble image -->
+                    <img class="img-absolute" src="Assets/img/city2.png" alt="City 2">
+                    <div class="grid">
+                         <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
+                              <h2 class="section-title">About me</h2>
+                              <p>Heya im Bram, Im <b id="ageupdate"></b> years old and live in the Netherlands!</p>
+                         </div>
+                    </div>
+               </div>
+
+               <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
+                    <h2 class="section-title">Projects</h2>
+                    <p>Here will be a nice list of my projects</p>
+               </div>
+
+               <div class="content-wrapper" id="contact">
+                    <!-- Third replaceble image -->
+                    <img class="img-absolute" src="Assets/img/city3.png" alt="City 3">
+
+                    <h2 class="section-title">Contact</h2>
+                    <p>Contact me via Discord!</p>
+                    <p><b>TheGamingBram#0001</b></p>
+                    
+                    
+               </div>
+               
+          </main>
+
+          <!-- Main footer -->
+          <footer>
+               <div class="content-wrapper-sm display-flex-between">
+                    <!-- Easily replaceble copyright information -->
+                    <small>VNight copyright 2022.</small>
+
+                    <!-- Make sure to edit the links so that they go to your social media. -->
+                    <div class="social-links">
+                         <ul>
+                              <li><a href="https://www.instagram.com/thegamingbram/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="https://steamcommunity.com/id/TheGamingBram"><i class="fab fa-steam" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/TheGamingBram"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                              <li><a href="https://discord.gg/26HRZv7MH3"><i class="fab fa-discord" aria-hidden="true"></i></a></li>
+                              <li><a href="https://open.spotify.com/user/31pzdmplqcn4azp3qnoangbfyjxu"><i class="fab fa-spotify" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.youtube.com/channel/UCIvPAezHTMjnCJMhLhx9ngQ"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </footer>
+
+          <!-- Scripts placed at the bottom for faster loading -->
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+          <script src="Assets/js/menu.js" charset="utf-8"></script>
+
+          <!-- Optional js files -->
+          <script src="Assets/js/nav.js" charset="utf-8"></script>
+          <script src="Assets/js/scroll.js" charset="utf-8"></script>
+          <script>
+               const d = new Date();
+               let month = d.getUTCMonth(); // 0 = Jan, 1 = Feb, 2 = Mar, 3 = Apr, 4 = May, 5 = Jun, 6 = Jul, 7 = Aug, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
+               let day = d.getUTCDate();
+
+               IMGOBJECT = document.getElementById('IMG1');
+
+               if(month == 0){
+
+               }else if(month == 1){
+
+               }else if(month == 2){
+
+               }else if(month == 3){
+
+               }else if(month == 4){
+
+               }else if(month == 5){
+                    
+               }else if(month == 6){
+
+               }else if(month == 7){
+
+               }else if(month == 8){
+
+               }else if(month == 9){
+                    IMGOBJECT.src = "Assets/img/Spooky.jpg";
+               }else if(month == 10){
+                    
+               }else if(month == 11){
+                    IMGOBJECT.src = "Assets/img/Xmas.jpg";
+               }else{
+                    
+               }
+
+               // The date you were born
+               var birthDate = new Date(2002, 2, 4, 0, 0, 0, 0);
+               // The current date
+               var currentDate = new Date();
+               // The age in years
+               var age = currentDate.getFullYear() - birthDate.getFullYear();
+               // Compare the months
+               var monthyears = currentDate.getMonth() - birthDate.getMonth();
+               // Compare the days
+               var day_current = currentDate.getDate() - birthDate.getDate();
+               if ( monthyears < 0 || monthyears == 0 && day_current < 0 )
+               {
+               age--;
+               }
+               document.getElementById("ageupdate").innerHTML = age;
+          </script>
+     </body>
 </html>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
-<script>
-  const d = new Date();
-  let month = d.getUTCMonth(); // 0 = Jan, 1 = Feb, 2 = Mar, 3 = Apr, 4 = May, 5 = Jun, 6 = Jul, 7 = Aug, 8 = Sep, 9 = Oct, 10 = Nov, 11 = Dec
-  obje = document.getElementById('Background');
-
-  titleobjects = document.getElementsByClassName('loader');
-  for(var i = 0; i < titleobjects.length; i++){
-    titleobjects[i].style.display = 'none';
-  }
-
-  if(month == 11){
-    obje.style.backgroundImage = "url('https://i.imgur.com/mPDNe0D.jpg')";
-    document.getElementById('xmas').style.display = 'block';
-  }else if(month == 9){
-    obje.style.backgroundImage = "url('https://i.imgur.com/BRML8Jo.jpg')";
-    document.getElementById('spook').style.display = 'block';
-  }else{
-    document.getElementById('title').style.display = 'block';
-  }
-
-  var language = navigator.languages;
-
-  console.log(language);
-  
-
-  for (var i = 0; i < language.length; i++) {
-    TMPLANG = language[i].toLowerCase();
-
-    if(TMPLANG == "ru" || TMPLANG == "ru-mo" || TMPLANG == "uk" || TMPLANG == "be"){
-      obje.style.backgroundImage = "url('https://www.wilsoncenter.org/sites/default/files/styles/embed_text_block/public/media/uploads/images/shutterstock_1446271175.jpg')";
-
-      var sound = new Howl({
-        src: ['Sounds/Ukraine.mp3'],
-        volume: 1.0,
-        loop: true,
-        
-      });
-      sound.play();
-    }
-
-  }
-
-  //function $_GET(param) {
-	//var vars = {};
-	//window.location.href.replace( location.hash, '' ).replace( 
-	//	/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
-	//	function( m, key, value ) { // callback
-	//		vars[key] = value !== undefined ? value : '';
-	//	}
-	//);
-
-	//if ( param ) {
-	//	return vars[param] ? vars[param] : null;	
-	//}
-	//return vars;
-  //}
-
-  //if($_GET != ""){
-  //  var url = "DISORD n";
-  //  var content = $_GET("msg");
-  //  $.post(url, {"content": content});
-  //}
-
-</script>
