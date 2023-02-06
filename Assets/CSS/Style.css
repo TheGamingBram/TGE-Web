@@ -882,3 +882,10 @@ footer .social-links ul li a {
   color: #fefffe;
   display: block;
 }
+
+
+/* CUSTOM! */
+.TGB-Card{
+  float: left;
+  width: 33.33%;
+}
